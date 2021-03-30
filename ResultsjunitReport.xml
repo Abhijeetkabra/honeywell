@@ -1,0 +1,6 @@
+<?xml version="2.0" encoding="UTF-8"?>
+<testsuites name="Honeywell Test" tests="3" time="5.332">
+  <testsuite name="Impala get request" id="8e9e0905-62df-4ed2-82af-4fc6f565775c" timestamp="2021-03-30T08:48:13.893Z" tests="0" failures="0" errors="0" time="0.684"/>
+  <testsuite name="scraping beee" id="208d21f1-3b49-4efc-a57f-6d056b873470" timestamp="2021-03-30T08:48:13.893Z" tests="0" failures="0" errors="0" time="3.632"/>
+  <testsuite name="ambee" id="91d67ea1-476c-463a-a405-90a0e77ec2e0" timestamp="2021-03-30T08:48:13.893Z" tests="0" failures="0" errors="0" time="1.016"/>
+</testsuites>
