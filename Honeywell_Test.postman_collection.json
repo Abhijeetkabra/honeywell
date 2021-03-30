@@ -141,8 +141,36 @@
 			"name": "ambee2_Postalcode search",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "7ZyiPPC8ZP9v4Mu9gob968CZgeGSZ1XG79bPjkDa",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.ambeedata.com/latest/by-postal-code?postalCode=560020&countryCode=IN",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ambeedata",
+						"com"
+					],
+					"path": [
+						"latest",
+						"by-postal-code"
+					],
+					"query": [
+						{
+							"key": "postalCode",
+							"value": "560020"
+						},
+						{
+							"key": "countryCode",
+							"value": "IN"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -150,8 +178,32 @@
 			"name": "Ambee3_Citywise search",
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": [
+					{
+						"key": "x-api-key",
+						"value": "7ZyiPPC8ZP9v4Mu9gob968CZgeGSZ1XG79bPjkDa",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "https://api.ambeedata.com/latest/by-city?city=Bengaluru\n",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ambeedata",
+						"com"
+					],
+					"path": [
+						"latest",
+						"by-city"
+					],
+					"query": [
+						{
+							"key": "city",
+							"value": "Bengaluru\n"
+						}
+					]
+				}
 			},
 			"response": []
 		}
